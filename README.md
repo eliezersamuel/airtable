@@ -5,8 +5,7 @@
 ## General Overview
 
 ```
-airtable-main/
-└── airtable-main/
+timeline/
     ├── public/
     │   └── index.html
     ├── src/
