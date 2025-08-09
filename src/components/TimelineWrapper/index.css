@@ -1,0 +1,106 @@
+.tl-root {
+    position: relative;
+    overflow: auto;
+    border: 1px solid #eee;
+    border-radius: 8px;    
+}
+
+.tl-grid {
+    position:absolute;
+    inset:0;
+    background-image: linear-gradient(to right, rgba(0,0,0,.05) 1px, transparent 1px);
+    background-size: 60px 100%;
+    
+}
+
+.tl-header-buttons {
+    background-color: #415c7b;
+    padding: 0.5rem;
+    width: 2rem;
+    height: 3rem;
+    border-radius: 10%;
+    border: none;
+    font-size: 1.6rem;
+    color: #eee;
+    cursor: pointer;
+}
+
+.tl-rows {
+    position: relative;
+    display: grid;
+    gap: 6px;
+    padding: 8px;
+    min-height: 160px;
+}
+
+.tl-item {
+    position: absolute;
+    height: 32px;
+    background: rgba(59,130,246,.25);
+    border: 1px solid rgba(59,130,246,.4);
+    border-radius: 8px;
+    display:flex;
+    align-items:center;
+    padding:0 8px;
+    outline: none;
+    cursor: grab;
+    
+}
+
+.tl-item:active {
+    cursor: grabbing;
+    
+}
+
+.tl-item:focus, .tl-item:hover {
+    box-shadow: 0 0 0 3px rgba(59,130,246,.85);
+    
+}
+
+.tl-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    pointer-events: none;
+    
+}
+
+.tl-input {
+    width: 100%;
+    height: 24px;
+    border: 1px solid #93c5fd;
+    border-radius: 6px;
+    padding: 0 6px;
+    
+}
+
+.tl-handle {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    width: 6px;
+    background: transparent;
+    
+}
+
+.tl-handle.left {
+    left: -3px;
+    cursor: ew-resize;
+    
+}
+
+.tl-handle.right {
+    right: -3px;
+    cursor: ew-resize;
+    
+}
+
+.tl-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 100dvh;
+    width: 100dvw;
+}
