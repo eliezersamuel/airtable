@@ -13,7 +13,16 @@ airtable-main/
     │   ├── components/
     │   │   └── TimelineWrapper/
     │   │       ├── Timeline/
+    │   │       |   └── TimelineItem.jsx
+    │   │       |   └── TimelineRow.jsx
+    │   │       |   └── index.jsx
+    │   │       |   └── hooks/
+    │   │       |       ├── useDrag.js
+    │   │       |       ├── useEditing.js
+    │   │       |       ├── useKeyboardMove.js
+    │   │       |       ├── useTimelineBounds.js
     │   │       ├── TimelineHeaderButtons/
+    │   │       |   └── index.jsx
     │   │       ├── index.css
     │   │       ├── index.jsx
     │   │       └── test.spec.jsx
