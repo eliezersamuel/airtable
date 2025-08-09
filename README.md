@@ -13,9 +13,9 @@ airtable-main/
     │   ├── components/
     │   │   └── TimelineWrapper/
     │   │       ├── Timeline/
-    │   │       |   └── TimelineItem.jsx
-    │   │       |   └── TimelineRow.jsx
-    │   │       |   └── index.jsx
+    │   │       |   ├── TimelineItem.jsx
+    │   │       |   ├── TimelineRow.jsx
+    │   │       |   ├── index.jsx
     │   │       |   └── hooks/
     │   │       |       ├── useDrag.js
     │   │       |       ├── useEditing.js
