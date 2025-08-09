@@ -56,6 +56,12 @@ npm run test
 - **vitest**: for component testing
 - **date-fns**: for date manipulation
 
+## Features
+
+- **Inline editing**: Double-click a card to edit its name directly.
+- **Drag and drop**: Click and drag a card to change its position on the timeline.
+- **Resizable items**: Click and drag the card's handles to resize its duration.
+
 ---
 
 ### Additional Notes
